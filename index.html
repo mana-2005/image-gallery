@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Gallery</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<div class="container my-4">
+  <div class="text-center mb-3">
+    <h2>Village & City Gallery</h2>
+    <button class="btn btn-primary filter-btn" data-filter="all">All</button>
+    <button class="btn btn-success filter-btn" data-filter="village">Village</button>
+    <button class="btn btn-dark filter-btn" data-filter="city">City</button>
+  </div>
+
+  <div class="row village-row">
+    <div class="col-md-6 gallery-item" data-category="village">
+      <img src="https://images.unsplash.com/photo-1729010733988-637a20cc5e37?fm=jpg&q=60&w=3000&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8OHx8bW91bnRhaW4lMjB2aWxsYWdlfGVufDB8fDB8fHww" class="gallery-img">
+    </div>
+    <div class="col-md-6 gallery-item" data-category="village">
+      <img src="https://thumbs.dreamstime.com/b/strawberry-picker-workers-7774131.jpg" class="gallery-img">
+    </div>
+  </div>
+
+  <div class="row city-row mt-3">
+    <div class="col-md-6 gallery-item" data-category="city">
+      <img src="https://images.unsplash.com/photo-1477959858617-67f85cf4f1df?fm=jpg&q=60&w=3000&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8Y2l0eXxlbnwwfHwwfHx8MA%3D%3D" class="gallery-img">
+    </div>
+    <div class="col-md-6 gallery-item" data-category="city">
+      <img src="https://images.unsplash.com/photo-1449824913935-59a10b8d2000?fm=jpg&q=60&w=3000&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTB8fHVyYmFufGVufDB8fDB8fHww" class="gallery-img">
+    </div>
+  </div>
+</div>
+
+<script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+<script src="jQuery.js"></script>
+
+</body>
+</html>
